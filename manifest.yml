@@ -3,8 +3,8 @@ min_phrase_length: 3
 max_phrase_length: 5
 
 # list of files that you want to analyse
-sources: sources
 responses: responses
+sources: sources
 
 # output filename
 output: output1.txt
