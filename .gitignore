@@ -1,3 +1,9 @@
+responses/*
+sources/*
+test_responses/*
+test_sources/*
+output*.txt
+
 *.gem
 *.rbc
 .bundle
