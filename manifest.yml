@@ -1,0 +1,10 @@
+# number of words that you're looking to match
+min_phrase_length: 3
+max_phrase_length: 5
+
+# list of files that you want to analyse
+sources: sources
+responses: responses
+
+# output filename
+output: output1.txt
