@@ -11,6 +11,8 @@ survey participants were copying text verbatim from source documents that they w
 3. Open `manifest.yml` and make sure that the settings are satisfactory.
 4. Run the script
 
+**Note:** This program does not handle nested parentheses or brackets at this time. In other words make sure you don't have strings like "([foo bar baz])" in your responses or sources.
+
 ## Manifest.yml
 
 - `min_phrase_length` is the minimum length of an exact phrase match that you want to check.
