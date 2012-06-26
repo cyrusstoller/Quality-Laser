@@ -52,7 +52,7 @@ def analyze(num_words, source, response)
   i = 0
   while i+num_words <= response_tokens.size
     search_text = response_tokens[i...i+num_words].map do |t|
-      t.gsub(/\(/,'\(').gsub(/\)/,'\)').gsub(/\./,'\.')
+      t.gsub(/\(/,'\(').gsub(/\)/,'\)').gsub(/\./,'\.').gsub(/\[/,'\[').gsub(/\]/,'\]')
     end.join("\s+")
     
     regex = Regexp.new "#{search_text}", Regexp::IGNORECASE
